@@ -42,4 +42,21 @@ web server
 > Nginx + PHP-FPM 7.0
 > Mongodb 3.2
 
+### ab command ###
+
+```
+ab -n 1000 -c 100 http://127.0.0.1:3000/
+```
+
+
+node 的结果居然和Micro持平，这让我有点意外，因为我预计nodejs应该比PHP稍好一些才对。
+
+### dependencies ###
+
+* mongodb
+* php-mongodb
+* php-phalcon
+
+
+
 
